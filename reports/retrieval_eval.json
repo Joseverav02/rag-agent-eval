@@ -1,0 +1,76 @@
+{
+  "k": 3,
+  "n_docs": 20,
+  "results": [
+    {
+      "retriever": "tfidf",
+      "k": 3,
+      "n_queries": 30,
+      "recall_at_k": 0.9,
+      "mrr": 0.8389,
+      "queries_with_miss": [
+        "q25",
+        "q28",
+        "q30"
+      ],
+      "subset": "all"
+    },
+    {
+      "retriever": "tfidf",
+      "k": 3,
+      "n_queries": 22,
+      "recall_at_k": 1.0,
+      "mrr": 0.9697,
+      "queries_with_miss": [],
+      "subset": "lexical"
+    },
+    {
+      "retriever": "tfidf",
+      "k": 3,
+      "n_queries": 8,
+      "recall_at_k": 0.625,
+      "mrr": 0.4792,
+      "queries_with_miss": [
+        "q25",
+        "q28",
+        "q30"
+      ],
+      "subset": "paraphrase"
+    },
+    {
+      "retriever": "bm25",
+      "k": 3,
+      "n_queries": 30,
+      "recall_at_k": 0.9,
+      "mrr": 0.8778,
+      "queries_with_miss": [
+        "q25",
+        "q28",
+        "q30"
+      ],
+      "subset": "all"
+    },
+    {
+      "retriever": "bm25",
+      "k": 3,
+      "n_queries": 22,
+      "recall_at_k": 1.0,
+      "mrr": 0.9697,
+      "queries_with_miss": [],
+      "subset": "lexical"
+    },
+    {
+      "retriever": "bm25",
+      "k": 3,
+      "n_queries": 8,
+      "recall_at_k": 0.625,
+      "mrr": 0.625,
+      "queries_with_miss": [
+        "q25",
+        "q28",
+        "q30"
+      ],
+      "subset": "paraphrase"
+    }
+  ]
+}

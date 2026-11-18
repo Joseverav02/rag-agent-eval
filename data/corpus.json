@@ -1,0 +1,22 @@
+[
+  {"id": "d01", "text": "LoRA es una técnica de ajuste fino eficiente que congela los pesos originales del modelo y entrena pequeñas matrices de bajo rango. Reduce drásticamente la memoria y el número de parámetros entrenables."},
+  {"id": "d02", "text": "La cuantización de 4 bits (QLoRA) permite ajustar modelos grandes en una sola GPU de consumo, almacenando los pesos base en precisión reducida mientras los adaptadores se entrenan en mayor precisión."},
+  {"id": "d03", "text": "Recall@k mide la fracción de documentos relevantes que aparecen entre los primeros k resultados recuperados. Es la métrica principal para evaluar la fase de recuperación de un sistema RAG."},
+  {"id": "d04", "text": "MRR, o Mean Reciprocal Rank, calcula la media de la inversa de la posición del primer documento relevante. Penaliza más cuando el resultado correcto aparece lejos en la lista."},
+  {"id": "d05", "text": "La generación aumentada por recuperación (RAG) combina un buscador de documentos con un modelo de lenguaje, de modo que las respuestas se apoyan en fuentes externas en lugar de solo en lo memorizado durante el entrenamiento."},
+  {"id": "d06", "text": "El chunking divide los documentos en fragmentos de tamaño fijo o semántico antes de indexarlos. Un tamaño demasiado grande diluye la relevancia y uno demasiado pequeño pierde contexto."},
+  {"id": "d07", "text": "BM25 es una función de ranking léxica que pondera la frecuencia de los términos, su rareza en la colección y la longitud del documento. Sigue siendo un baseline muy competitivo frente a métodos densos."},
+  {"id": "d08", "text": "Un agente de IA es un sistema que planifica, usa herramientas y ejecuta varios pasos para cumplir un objetivo. Un grafo de estados permite modelar bucles, ramificaciones y reintentos de forma explícita."},
+  {"id": "d09", "text": "La prima de un seguro de automóvil se calcula a partir de la edad del conductor, su historial de siniestros, la zona de circulación y el tipo de vehículo. Un historial sin siniestros suele reducir el precio."},
+  {"id": "d10", "text": "El ratio de siniestralidad, o loss ratio, es la cantidad pagada en siniestros dividida entre las primas cobradas. Un valor por encima de uno indica que la aseguradora pierde dinero en ese producto."},
+  {"id": "d11", "text": "El riesgo de crédito estima la probabilidad de que un prestatario incumpla sus pagos. Los modelos de scoring usan variables como ingresos, nivel de endeudamiento y pagos atrasados previos."},
+  {"id": "d12", "text": "La calibración de probabilidades asegura que una estimación del 10 % corresponda a un 10 % de casos observados. Es clave en riesgo de crédito, donde la probabilidad se usa para fijar precios y límites."},
+  {"id": "d13", "text": "La detección de fraude en pagos con tarjeta combina reglas de negocio con modelos supervisados sobre transacciones etiquetadas. El desequilibrio de clases obliga a usar métricas como PR-AUC en lugar de la exactitud."},
+  {"id": "d14", "text": "Un pipeline ETL extrae datos de fuentes operativas, los transforma aplicando reglas de limpieza y los carga en un almacén analítico. Las validaciones de calidad se ejecutan antes de la carga."},
+  {"id": "d15", "text": "Un modelo en estrella organiza el almacén analítico con una tabla de hechos en el centro, con métricas y claves, rodeada de tablas de dimensiones como cliente, producto o fecha."},
+  {"id": "d16", "text": "La validación cruzada estratificada reparte las clases de forma proporcional en cada pliegue. Es recomendable cuando la variable objetivo está desbalanceada, como en el impago de préstamos."},
+  {"id": "d17", "text": "El control de sesgo en modelos de decisión evalúa si las tasas de aprobación o de error difieren entre grupos protegidos, como edad, género o zona geográfica, antes de desplegar el modelo."},
+  {"id": "d18", "text": "Un ataque de inyección de prompts intenta que un modelo ignore sus instrucciones mediante texto malicioso incrustado en los datos recuperados. Se mitiga separando instrucciones de contenido no confiable."},
+  {"id": "d19", "text": "Los embeddings densos representan textos como vectores en un espacio continuo, de modo que frases con significado parecido quedan cerca aunque no compartan palabras. Se usan en búsqueda semántica."},
+  {"id": "d20", "text": "La revisión automática de código con IA analiza los cambios de un pull request para detectar secretos expuestos, código de depuración olvidado o cambios sin tests asociados, y publica un resumen."}
+]
